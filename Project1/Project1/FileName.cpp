@@ -26,4 +26,15 @@ int function(const char* str, const char* word) {
 }
 int main() 
 {
+    const int d = 1000;
+    char e[d];
+    const char* f = "him";
+
+    std::cout << "¬вед≥ть р€док: ";
+    std::cin.getline(e, d);
+
+    int g = function(e, f);
+
+    std::cout << "—лово '" << f << "' зустр≥чаЇтьс€ у р€дку " << g << " раз≥в." << std::endl;
+
 }
